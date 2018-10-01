@@ -1,0 +1,166 @@
+textarea: first-child{
+  height: 30em;
+  width: 100em;
+  text-align: left;
+}
+
+textarea: second-child{
+  height: 30em;
+  width: 100em;
+  text-align: left;
+}
+
+h1{
+  color: GhostWhite; text-align: left; top: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+  float: right;
+}
+
+h4{
+  color: Black; font: 32px arial bold, sans-serif; text-align: center; top: 0;
+}
+
+h6{
+  color: Black;
+  font: 32px arial bold, sans-serif;
+}
+
+h5{
+  background-color: white;
+  border-style: double;
+  border-color: red;
+}
+
+
+body{
+  background-color: #D3D3D3;
+}
+
+td {
+  border: 1px solid #ccc;
+  color: #444;
+  line-height: 22px;
+  text-align: center;
+}
+tr:first-child td {
+  color: #222;
+  background-color: GhostWhite;
+  font-weight: 700;
+  border: Black;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 2px;
+
+}
+.selected {
+  background: #00FFFF;
+  border: 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5) inset;
+}
+
+button: fourth-child {
+  position: absolute;
+  top: -4px;
+}
+button: fifth-child {
+  position: absolute;
+  top: -4px;
+}
+button:fourth-child {
+  left: 0;
+}
+button:fifth-child {
+  right: 0;
+}
+.topText{
+  width: 172px;
+  height: 20px;
+  background-color: #778899;
+  color: GhostWhite;
+  font: 24px,bold, sans-serif;;
+  text-align: center;
+  text-outline: 2px 0px Black;
+  font-weight: bold;
+  border: black;
+  border-style: solid;
+  border-width: 2px;
+}
+.bottomText{
+  width: 172px;
+  height: 80px;
+  background-color: GhostWhite;
+  font: 10px, sans-serif;;
+  border: black;
+  text-align: left;
+
+  border-style: solid;
+  border-width: 2px;
+  vertical-align: top;
+  position:relative;
+  top:-5px;
+}
+.buttons{
+  border: Black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+
+}
+input[type=text]:focus {
+    background-color: GhostWhite;
+}
+#prev{
+float:left;
+}
+#next{
+  float:right;
+}
+#month{
+  float:center;
+}
+#topDays{
+  background-color: GhostWhite;
+}
+#month{
+  font-size: 50px;
+}
+.events .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.events:hover .tooltiptext {
+    visibility: visible;
+}
+.change{
+  border-width: 1px;
+  border-radius: 20px;
+  margin-left: 1px;
+
+}
+.material-icons{
+  margin-left: 1px;
+  color: #D3D3D3;
+
+}
+.material-icons:hover {
+color: black;
+}
